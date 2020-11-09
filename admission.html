@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+
+<!-- 
+  Theme Name: Enlight
+  Theme URL: https://probootstrap.com/enlight-free-education-responsive-bootstrap-website-template
+  Author: ProBootstrap.com
+  Author URL: https://probootstrap.com
+  License: Released for free under the Creative Commons Attribution 3.0 license (probootstrap.com/license)
+-->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Gurukul Admission form</title>
+<link rel="icon" href="images/logo.png">
+    <meta name="description" content="Free Bootstrap Theme by ProBootstrap.com">
+    <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+    
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,700|Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles-merged.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <div class="probootstrap-search" id="probootstrap-search">
+      <a href="#" class="probootstrap-close js-probootstrap-close"><i class="icon-cross"></i></a>
+      <form action="#">
+        <input type="search" name="s" id="search" placeholder="Search a keyword and hit enter...">
+      </form>
+    </div>
+    
+    <div class="probootstrap-page-wrapper">
+      <!-- Fixed navbar -->
+      
+      <div class="probootstrap-header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-md-9 col-sm-9 probootstrap-top-quick-contact-info">
+              <span><i class="icon-location2"></i>Davanagere,Karnataka, India</span>
+              <span><i class="icon-phone2"></i>+91-22456-7890</span>
+              <span><i class="icon-mail"></i>info@gurukul.com</span>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-3 probootstrap-top-social">
+              <ul>
+                <li><a href="#"><i class="icon-twitter"></i></a></li>
+                <li><a href="#"><i class="icon-facebook2"></i></a></li>
+                <li><a href="#"><i class="icon-instagram2"></i></a></li>
+                <li><a href="#"><i class="icon-youtube"></i></a></li>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <li><a href="login.jsp"><i class="icon-user"></i>Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-default probootstrap-navbar">
+        <div class="container">
+          <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+        <a href="index.html" class="navbar-brand"><img src="img/logo.jpeg"width="200px"></a>
+
+          <div id="navbar-collapse" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="index.html">Home</a></li>
+              <li ><a href="courses.html">Courses</a></li>
+              <li ><a href="teachers.jsp">Faculty</a></li>
+              <li ><a href="gallery.html">Gallery</a></li>
+              <li><a href="events.html">Events</a></li>
+              <li class="active"><a href="admission.html">Admission</a></li>
+<!--              <li class="dropdown">
+                <a href="#" data-toggle="dropdown" class="dropdown-toggle">Pages</a>
+                <ul class="dropdown-menu">
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="course-single.html">Course Single</a></li>
+                  <li><a href="gallery.html">Gallery</a></li>
+                  <li class="dropdown-submenu dropdown">
+                    <a href="#" data-toggle="dropdown" class="dropdown-toggle"><span>Sub Menu</span></a>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                      <li><a href="#">Second Level Menu</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="news.html">News</a></li>
+                </ul>
+              </li>-->
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      
+      <section class="probootstrap-section probootstrap-section-colored">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-left section-heading probootstrap-animate mb0">
+              <h1 class="mb0">Admission Form</h1>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="probootstrap-section probootstrap-bg-white">
+      
+         <form method="POST" id ="submit" action="form">
+            <div class="container">
+          
+        <div class="row jumbotron">
+            <center><h2><strong>Fill Your Details</strong></h2></center>
+            <div class="col-sm-6 form-group">
+                <label for="fname">First Name</label>
+                <input type="text" class="form-control" name="fname" id="fname" placeholder="Enter first name." required>
+            </div>
+            
+                      
+            <div class="col-sm-6 form-group">
+                <label for="lname">Last Name</label>
+                <input type="text" class="form-control" name="lname" id="lname" placeholder="Enter last name." required>
+            </div>
+            
+          <div class="col-sm-6 form-group">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" class="form-control browser-default custom-select">
+           
+                <option value="male"  >male</option>
+                <option value="female">female</option>
+            </select>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+            <div class="container">
+		<div class="row">
+                 <label for="dob">Date Of Birth</label>
+				</div>
+		<div class="row">
+	       
+	        
+		            
+		                <div class='input-group date' id='dob' >
+		                    <input type='text' name="dob" class="form-control" placeholder="dd/mm/yyyy." required/>
+		                    <span class="input-group-addon">
+		                        <span class="glyphicon glyphicon-calendar"></span>
+		                    </span>
+		                </div>
+		           
+		      
+	        </div>
+	    </div>
+	</div>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.7.1/js/bootstrap-datepicker.min.js"></script>
+	<script >
+	    $(function () {
+	        $('#dob').datepicker({
+	            format: "dd/mm/yyyy",
+	            autoclose: true,
+	            todayHighlight: true,
+		        showOtherMonths: true,
+		        selectOtherMonths: true,
+		        autoclose: true,
+		        changeMonth: true,
+		        changeYear: true,
+		        orientation: "button"
+	        });
+	    });
+	</script>
+
+            
+            
+            <div class="col-sm-4 form-group">
+                <label for="religion">Religion</label>
+                <input type="text" class="form-control" name="religion" id="religion" placeholder="Enter religion." required>
+            </div>
+            
+            <div class="col-sm-4 form-group">
+                <label for="cast">Caste</label>
+                <input type="text" class="form-control" name="cast" id="cast" placeholder="Enter caste." required>
+            </div>
+            
+            <div class="col-sm-4 form-group">
+                <label for="nationality">Nationality</label>
+                <input type="text" class="form-control" name="nationality" id="nationality" placeholder="Enter nationality." required>
+            </div>
+            
+            <div class="col-sm-12 form-group">
+                <label for="address">Address</label>
+                <input type="address" class="form-control" name="address" id="address" placeholder="Locality/House/Street no." required>
+            </div>
+            
+            <div class="col-sm-4 form-group">
+                <label for="preclass">Previous Class</label>
+                <select id="preclass" name="preclass" class="form-control browser-default custom-select">
+          
+                <option value="lkg">LKG</option>
+                <option value="ukg">UKG</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                </select>
+                
+            </div>
+            
+            <div class="col-sm-4 form-group">
+                <label for="preper">Previous Prcentage</label>
+                <input type="text" class="form-control" name="preper" id="preper" placeholder="Enter Previous Percentage." required>
+            </div>
+            
+            <div class="col-sm-4 form-group">
+                <label for="preschool">Previous School</label>
+                <input type="text" class="form-control" name="preschool" id="preper" placeholder="Enter Previous School." required>
+            </div>
+            
+            
+            
+            <div class="col-sm-6 form-group">
+                <label for="fathername">Father Name</label>
+                <input type="text" class="form-control" name="fathername" id="fathername" placeholder="Enter father name." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="fatheroccuption"> Father Occuption</label>
+                <input type="text" class="form-control" name="fatheroccuption" id="fatheroccuption" placeholder="Enter father occuption." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+            <label for="fatherphno">Father Phone No</label>
+                <input type="tel" class="form-control" name="fatherphno" id="fatherphno" placeholder="Enter father phone no." required>
+                
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="fatheremail"> Father Email</label>
+                <input type="email" class="form-control" name="fatheremail" id="fatheremail" placeholder="Enter father email." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="mothername">Mother Name</label>
+                <input type="text" class="form-control" name="mothername" id="mothername" placeholder="Enter mother name." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="motheroccuption"> Mother Occuption</label>
+                <input type="text" class="form-control" name="motheroccuption" id="motheroccuption" placeholder="Enter mother occuption." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+            <label for="motherphno">Mother Phone No</label>
+                <input type="tel" class="form-control" name="motherphno" id="motherphno" placeholder="Enter mother phone no." required>
+            </div>
+            
+            <div class="col-sm-6 form-group">
+                <label for="motheremail"> Mother Email</label>
+                <input type="email" class="form-control" name="motheremail" id="motheremail" placeholder="Enter mother email." required>
+                
+        
+                    </div>
+    
+            <div class="col-sm-12 form-group mb-0">
+                <center><button type="submit" class="btn btn-success btn-lg float-center" name="submit" value="submit" >Submit</button></center>
+              
+            </div>
+            
+        </div>
+             
+        </form>
+        
+      </div>
+    </section>
+      
+      
+      <footer class="probootstrap-footer probootstrap-bg">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>About The School</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro provident suscipit natus a cupiditate ab minus illum quaerat maxime inventore Ea consequatur consectetur hic provident dolor ab aliquam eveniet alias</p>
+                <h3>Social</h3>
+                <ul class="probootstrap-footer-social">
+                  <li><a href="#"><i class="icon-twitter"></i></a></li>
+                  <li><a href="#"><i class="icon-facebook"></i></a></li>
+                  <li><a href="#"><i class="icon-github"></i></a></li>
+                  <li><a href="#"><i class="icon-dribbble"></i></a></li>
+                  <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                  <li><a href="#"><i class="icon-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3 col-md-push-1">
+              <div class="probootstrap-footer-widget">
+                <h3>Links</h3>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="courses.html">Courses</a></li>
+                  <li><a href="teachers.jsp">Teachers</a></li>
+                  <li><a href="events.html">News</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>Contact Info</h3>
+                <ul class="probootstrap-contact-info">
+                  <li><i class="icon-location2"></i> <span>Davangere,Karnataka,India</span></li>
+                  <li><i class="icon-mail"></i><span>info@gurukul.com</span></li>
+                  <li><i class="icon-phone2"></i><span>+9122 456-7890</span></li>
+                </ul>
+              </div>
+            </div>
+              <div class="col-md-4">
+              <div class="probootstrap-footer-widget">
+                <h3>News Letter</h3>
+                <form method="POST" action="newsletter">
+<input type="email" class="form-control" name="email" placeholder="Enter Your E-mail">
+<br>
+<input type="submit"  class="btn btn-primary" name="submit" >
+</form>
+              </div>
+            </div>
+           
+          </div>
+          <!-- END row -->
+          
+        </div>
+
+        <div class="probootstrap-copyright">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-8 text-left">
+                 <p>&copy; 2020 <a href="#">NVRHSV:Gurukul</a>. All Rights Reserved. Designed &amp; Developed with <i class="icon icon-heart"></i> by <a href="#">NVRHSV</a></p>
+              </div>
+              <div class="col-md-4 probootstrap-back-to-top">
+                <p><a href="#" class="js-backtotop">Back to top <i class="icon-arrow-long-up"></i></a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+    <!-- END wrapper -->
+
+    <!-- Photoswipe Modal -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+      <div class="pswp__bg"></div>
+      <div class="pswp__scroll-wrap">
+
+          <div class="pswp__container">
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+              <div class="pswp__item"></div>
+          </div>
+
+          <div class="pswp__ui pswp__ui--hidden">
+              <div class="pswp__top-bar">
+                  <div class="pswp__counter"></div>
+                  <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                  <button class="pswp__button pswp__button--share" title="Share"></button>
+                  <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                  <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                  <div class="pswp__preloader">
+                      <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                          <div class="pswp__preloader__donut"></div>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                  <div class="pswp__share-tooltip"></div> 
+              </div>
+              <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+              </button>
+              <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+              </button>
+              <div class="pswp__caption">
+                  <div class="pswp__caption__center"></div>
+              </div>
+          </div>
+      </div>
+    </div>
+    
+
+    <script src="js/scripts.min.js"></script>
+    <script src="js/main.min.js"></script>
+    <script src="js/custom.js"></script>
+
+  </body>
+</html>
